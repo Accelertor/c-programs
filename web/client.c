@@ -9,6 +9,9 @@
 #define PORT 8080
 #define BUFFER_SIZE 256
 
+#define cvr 
+
+
 int main() {
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
     if (sockfd < 0) {
